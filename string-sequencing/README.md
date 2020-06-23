@@ -9,7 +9,7 @@ The input to the function/method consists of an argument inputList, a list of ch
 Return a list of integers representing the length of each scene, in the order in which it appears in the given sequence of shots.
 
 ### Example
-Input: inputList= ababcbacadefegdehijhklij]\
+Input: inputList= ababcbacadefegdehijhklij\
 Output: 978\
 Explanation: The first scene consists of the shots a, b, and c. The second scene consists of d, e, f, and g. Finally, the last scene consists of h, i, j, and k. The answer is 3, 7, 8 because a, b, and c only appear in the first 3 characters, then d, e, f, and g appear in the next 7 The final 8 characters consist entirely of h, i, j, and k.
 
