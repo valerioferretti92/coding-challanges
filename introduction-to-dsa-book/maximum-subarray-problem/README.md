@@ -12,3 +12,15 @@ You might think that you can always maximize profit by either buying at the lowe
 Write an algorithm that behaves as follow:
 - **Input**: array of size *n* such that position *i* holds the price of one unit of stock at the end of day *i*
 - **Output**: indexes *buy*, *sell* and the value *profit*, meaning that we optimize our income by buying one unit of stock at the end of day *buy-1*, selling at the end of day *sell*. *profit* rapresents our net margin.
+
+### How to compile and run
+```
+go build
+./maximum-subarray-problem 100 113 110 85 105 102 86 63 81 101 94 106 101 79 94 90 97
+```
+To execute using rondom data:
+```
+for i in {1..5000}; do PRICES="$((1 + $RANDOM)) $PRICES"; done
+./maximum-subarray-problem "$(echo "$PRICES")"
+PRICES=
+```
