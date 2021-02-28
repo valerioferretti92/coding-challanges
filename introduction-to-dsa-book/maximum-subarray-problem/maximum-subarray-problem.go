@@ -59,9 +59,9 @@ func maximumSubarray(myArray []int, left, right int) (maxLeft, maxRight int, sum
 	// Conquer
 	leftLow, leftHigh, leftSum := maximumSubarray(myArray, left, mid)
 	rigthLow, rightHigh, rigthSum := maximumSubarray(myArray, mid+1, right)
-	crossLow, crossHigh, crossSum := maxCrossingSubarray(myArray, left, right, mid)
 
 	// Combine
+	crossLow, crossHigh, crossSum := maxCrossingSubarray(myArray, left, right, mid)
 	if leftSum >= crossSum && leftSum >= rigthSum {
 		return leftLow, leftHigh, leftSum
 	}
