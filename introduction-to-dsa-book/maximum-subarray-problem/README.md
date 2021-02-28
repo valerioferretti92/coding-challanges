@@ -16,7 +16,7 @@ Write an algorithm that behaves as follow:
 ### How to compile and run
 ```
 go build
-./maximum-subarray-problem 100 113 110 85 105 102 86 63 81 101 94 106 101 79 94 90 97
+./maximum-subarray-problem "100 113 110 85 105 102 86 63 81 101 94 106 101 79 94 90 97"
 ```
 To execute using rondom data:
 ```
