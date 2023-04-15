@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
 
     private Map<Character, Integer> digitValues = new HashMap<>() {{
